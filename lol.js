@@ -49,7 +49,7 @@ var MovieImage = React.createClass({
 	},
 	render: function () {
 		return (
-			React.createElement('img', {src: movies.img}, this.props.image)
+			React.createElement('img', {src: this.props.image})
 		)
 	}
 })
